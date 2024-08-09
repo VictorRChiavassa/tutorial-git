@@ -7,6 +7,7 @@ function HomeScreen() {
 
   return (
     <div>
+      <h1>Home Screen</h1>
       <ProductsList />
     </div>
   );

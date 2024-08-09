@@ -28,13 +28,6 @@ const ProductsList = () => {
         <input type="text" placeholder="nombre del producto" />
         <button
           onClick={() => {
-            // dispatch(
-            //   createProduct({
-            //     id: 4,
-            //     name: "Product 4",
-            //     price: 400,
-            //   })
-            // );
             fetch("http://localhost:3000/products", {
               method: "POST",
               headers: {
@@ -55,7 +48,7 @@ const ProductsList = () => {
               });
           }}
         >
-          Agregar producto
+          Add Product
         </button>
       </aside>
     </div>
