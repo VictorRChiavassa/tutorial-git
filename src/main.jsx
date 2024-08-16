@@ -8,7 +8,8 @@ import HomeScreen from "./pages/Home/HomeScreen";
 import AboutScreen from "./pages/About/AboutScreen";
 import ContactScreen from "./pages/Contact/ContactScreen";
 import { Provider } from "react-redux";
-import store from "./redux/store";
+import { store } from "./redux/store";
+import ProductsScreen from "./pages/Products/ProductsScreen";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <ContactScreen />,
+  },
+  {
+    path: "/products",
+    element: <ProductsScreen />,
   },
 ]);
 
