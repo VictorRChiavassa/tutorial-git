@@ -1,25 +1,19 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Product 1",
-      "price": 100,
-      "international": false
-    },
-    {
-      "id": 2,
+      "id": "2",
       "name": "Product 2",
       "price": 200,
       "international": true
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Product 3",
       "price": 300,
       "international": false
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Product 4",
       "price": 400,
       "international": false
@@ -33,9 +27,21 @@
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "User 1",
       "email": "asd"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "7d9e",
+      "email": "victorchiavassa2016@gmail.com",
+      "password": "carlos"
+    },
+    {
+      "id": "8a74",
+      "email": "arol@gmail.com",
+      "password": "alejo"
     }
   ]
 }

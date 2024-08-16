@@ -36,7 +36,12 @@ function ProductsList() {
           >
             <div className="flex justify-between w-full items-center">
               <p className="font-semibold text-md">{product.name}</p>
-              <button className="rounded-full border w-8 h-8 flex justify-center items-center bg-black text-white">
+              <button
+                className="rounded-full border w-8 h-8 flex justify-center items-center bg-black text-white"
+                onClick={() => {
+                  handleDelete(product.id);
+                }}
+              >
                 <Trash2 size={16} />
               </button>
             </div>
