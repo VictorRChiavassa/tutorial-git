@@ -3,22 +3,32 @@
     {
       "id": 1,
       "name": "Product 1",
-      "price": 100
+      "price": 100,
+      "international": false
     },
     {
       "id": 2,
       "name": "Product 2",
-      "price": 200
+      "price": 200,
+      "international": true
     },
     {
       "id": 3,
       "name": "Product 3",
-      "price": 300
+      "price": 300,
+      "international": false
     },
     {
       "id": 4,
       "name": "Product 4",
-      "price": 400
+      "price": 400,
+      "international": false
+    },
+    {
+      "id": "f4d5a2fa-37d1-4f45-87fc-f4b94622bf29",
+      "name": "product 5",
+      "price": "2500",
+      "international": true
     }
   ],
   "users": [
